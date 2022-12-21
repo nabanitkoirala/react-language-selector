@@ -1,6 +1,6 @@
 
 import './styles.scss';
-import LanguageSelector from './LanguageSelector';
+import LanguageSelector from 'react-language-button';
 function App() {
   return (
     <div className="App">
