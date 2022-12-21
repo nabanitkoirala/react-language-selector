@@ -12,6 +12,7 @@ For use it in your app:
 
 With React Component
 
+```
 import './styles.scss';
 import LanguageSelector from 'react-language-toggle-button';
 function App() {
@@ -31,6 +32,7 @@ function App() {
 }
 
 export default App;
+```
 
 
 # Props
