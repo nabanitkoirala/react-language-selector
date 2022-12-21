@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './styles.scss';
+import LanguageSelector from './LanguageSelector';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <LanguageSelector
+        onClickButton1={() => console.log("first button clicked")}
+        onClickButton2={() => console.log("Second button clickec")}
+        // classNameButton="test"
+        // classNameSelectedLanguage="test3"
+        buttonName2='ने'
+        buttonName1="EN"
+      />
     </div>
   );
 }
