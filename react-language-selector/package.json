@@ -1,6 +1,6 @@
 {
   "name": "react-language-select",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "Language selector for selecting language",
   "main": "./build/index.js",
   "scripts": {
