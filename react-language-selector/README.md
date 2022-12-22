@@ -6,7 +6,7 @@ It is the language toggle button that helps to switch the language for the WebAp
 
 # Installation
 
-```npm install react-language-select```
+```npm install react-language-select-button```
 
 # Usage
 
@@ -16,7 +16,7 @@ With React Component
 
 ```
 import './styles.scss';
-import LanguageSelector from 'react-language-select';
+import LanguageSelector from 'react-language-select-button';
 function App() {
 
   return (
