@@ -1,6 +1,6 @@
 {
   "name": "react-language-select-button",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Language selector for selecting language",
   "main": "./build/index.js",
   "scripts": {
