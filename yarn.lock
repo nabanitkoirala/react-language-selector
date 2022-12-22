@@ -7434,6 +7434,20 @@ react-is@^18.0.0:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-18.2.0.tgz#199431eeaaa2e09f86427efbb4f1473edb47609b"
   integrity sha512-xWGDIW6x921xtzPkhiULtthJHoJvBbF3q26fzloPCK0hsvxtPVelvftw3zjbHWSkR2km9Z+4uxbDDK/6Zw9B8w==
 
+react-language-select-button@1.0.11:
+  version "1.0.11"
+  resolved "https://registry.yarnpkg.com/react-language-select-button/-/react-language-select-button-1.0.11.tgz#58de51edf96f73eb15fe64c02cec385e4fd9e237"
+  integrity sha512-uEYElvczYdA90ua6BHM6855zC9PX+YMv6C/ltnHFMPz4QEEXWL23kek+PAj75WJ+s0eB1rT62TaqWTJNSZQfeQ==
+  dependencies:
+    "@testing-library/jest-dom" "^5.16.5"
+    "@testing-library/react" "^13.4.0"
+    "@testing-library/user-event" "^13.5.0"
+    prop-types "^15.7.2"
+    react "^18.2.0"
+    react-dom "^18.2.0"
+    react-scripts "5.0.1"
+    web-vitals "^2.1.4"
+
 react-language-toggle-button@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/react-language-toggle-button/-/react-language-toggle-button-1.0.0.tgz#7f50775044fff3c44fbf0fde90dc654cc70f58a0"
