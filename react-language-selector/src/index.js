@@ -13,7 +13,6 @@ const LanguageSelector = (props) => {
         setSelectedButton(data)
         props.onClickButton2 && props.onClickButton2()
     }
-    console.log("These are props", props)
     return (
         <div>
             <button

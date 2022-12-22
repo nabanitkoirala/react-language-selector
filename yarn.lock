@@ -7434,10 +7434,10 @@ react-is@^18.0.0:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-18.2.0.tgz#199431eeaaa2e09f86427efbb4f1473edb47609b"
   integrity sha512-xWGDIW6x921xtzPkhiULtthJHoJvBbF3q26fzloPCK0hsvxtPVelvftw3zjbHWSkR2km9Z+4uxbDDK/6Zw9B8w==
 
-react-language-select-button@1.0.11:
-  version "1.0.11"
-  resolved "https://registry.yarnpkg.com/react-language-select-button/-/react-language-select-button-1.0.11.tgz#58de51edf96f73eb15fe64c02cec385e4fd9e237"
-  integrity sha512-uEYElvczYdA90ua6BHM6855zC9PX+YMv6C/ltnHFMPz4QEEXWL23kek+PAj75WJ+s0eB1rT62TaqWTJNSZQfeQ==
+react-language-select-button@1.0.13:
+  version "1.0.13"
+  resolved "https://registry.yarnpkg.com/react-language-select-button/-/react-language-select-button-1.0.13.tgz#4c8d6fb13d935b860e533879ad4e12cf6d77e3bb"
+  integrity sha512-JyG7mbXA/a+YWKSiUtCgMS4CbZtasmcCnk3Ph+SVrM8OQuXZEpR5Pj5U6tRPFnjteiXrVUhp86yAmg3aYLOtgg==
   dependencies:
     "@testing-library/jest-dom" "^5.16.5"
     "@testing-library/react" "^13.4.0"
