@@ -2,7 +2,7 @@
 
 It is the language toggle button that helps to switch the language for the WebApp/Website.
 
-![Alt text](image/langToggle.png)
+![](image/langToggle.png)
 
 # Installation
 
