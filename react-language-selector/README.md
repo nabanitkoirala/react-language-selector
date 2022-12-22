@@ -2,6 +2,9 @@
 
 It is the language toggle button that helps to change the language for the WebApp/Website.
 
+![Getting Started](./image/langToggle.png)
+![Getting Started](image/langToggle.png)
+
 # Installation
 
 ```npm install react-language-toggle-button```
