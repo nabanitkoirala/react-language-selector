@@ -1,9 +1,8 @@
 # Introduction
 
-It is the language toggle button that helps to change the language for the WebApp/Website.
+It is the language toggle button that helps to switch the language for the WebApp/Website.
 
-![Getting Started](./image/langToggle.png)
-![Getting Started](image/langToggle.png)
+![Alt text](image/langToggle.png)
 
 # Installation
 
