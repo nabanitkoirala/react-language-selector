@@ -18,20 +18,20 @@ const LanguageSelector = (props) => {
         <div>
             <button
                 className={selectedButton === 1
-                    ? `button1 ${props.classNameButton ? props.classNameButton : null} ${props.classNameSelectedLanguage
+                    ? `button1 ${props.classNameButton} ${props.classNameSelectedLanguage
                         ? props.classNameSelectedLanguage
                         : 'selected-language'}`
-                    : `button1 ${props.classNameButton ? props.classNameButton : null}`}
+                    : `button1 ${props.classNameButton}`}
                 onClick={() => handleClickButton1(1)}
             >
                 {props.buttonName1}
             </button>
             <button
                 className={selectedButton === 2
-                    ? `button2 ${props.classNameButton ? props.classNameButton : null} ${props.classNameSelectedLanguage
+                    ? `button2 ${props.classNameButton} ${props.classNameSelectedLanguage
                         ? props.classNameSelectedLanguage
                         : 'selected-language'}`
-                    : `button2 ${props.classNameButton ? props.classNameButton : null}`}
+                    : `button2 ${props.classNameButton}`}
                 onClick={() => handleClickButton2(2)}
             >
 
