@@ -2,11 +2,11 @@
 
 It is the language toggle button that helps to switch the language for the WebApp/Website.
 
-![](image/langToggle.png)
+
 
 # Installation
 
-```npm install react-language-toggle-button```
+```npm install react-language-select```
 
 # Usage
 
@@ -16,7 +16,7 @@ With React Component
 
 ```
 import './styles.scss';
-import LanguageSelector from 'react-language-toggle-button';
+import LanguageSelector from 'react-language-select';
 function App() {
 
   return (
