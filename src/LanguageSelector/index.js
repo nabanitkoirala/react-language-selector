@@ -15,7 +15,7 @@ const LanguageSelector = (props) => {
     }
 
     return (
-        <>
+        <div className={props.containerClassName}>
             <button
                 className={selectedButton === 1
                     ? `button1 ${props.classNameButton1 ? props.classNameButton1 : ''} ${props.classNameSelectedLanguage
@@ -37,7 +37,7 @@ const LanguageSelector = (props) => {
 
                 {props.buttonName2}
             </button>
-        </>
+        </div>
     )
 }
 

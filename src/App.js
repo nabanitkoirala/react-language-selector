@@ -8,6 +8,7 @@ function App() {
       <LanguageSelector
         onClickButton1={() => console.log("first button clicked")}
         onClickButton2={() => console.log("Second button clickec")}
+        containerClassName="container"
         classNameButton="test"
         // classNameButton2="test"
         // classNameSelectedLanguage="test3"

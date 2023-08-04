@@ -28,6 +28,7 @@ function App() {
         classNameSelectedLanguage="classSelectedlanguage"
         buttonName2='ने'
         buttonName1="EN"
+        containerClassName="container"
       />
     </div>
   );
@@ -49,4 +50,4 @@ Common props you may want to specify include:
 * buttonName2 - Name to be provided for second button
 
 
-
+![Example](/react-language-selector//src/image/screenShot.png)
