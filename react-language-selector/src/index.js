@@ -19,7 +19,7 @@ const LanguageSelector = (props) => {
                 className={selectedButton === 1
                     ? `${props.classNameSelectedLanguage
                         ? props.classNameSelectedLanguage
-                        : `selected-language ${props.selectedLanguageClassName || ""} button1 ${props.classNameButton ? props.classNameButton : ''} `}`
+                        : `selected-language ${props.selectedLanguageClassName || null}`} button1 ${props.classNameButton ? props.classNameButton : ''} `
                     : `button1 ${props.classNameButton ? props.classNameButton : ''}`}
                 onClick={() => handleClickButton1(1)}
             >
@@ -29,8 +29,8 @@ const LanguageSelector = (props) => {
                 className={selectedButton === 2
                     ? `${props.classNameSelectedLanguage
                         ? props.classNameSelectedLanguage
-                        : `selected-language ${props.selectedLanguageClassName || ""} button2 ${props.classNameButton ? props.classNameButton : ''} `}`
-                    : `button2 ${props.classNameButton ? props.classNameButton : ''}`}
+                        : `selected-language ${props.selectedLanguageClassName || null}`} button1 ${props.classNameButton ? props.classNameButton : ''} `
+                    : `button1 ${props.classNameButton ? props.classNameButton : ''}`}
                 onClick={() => handleClickButton2(2)}
             >
 
