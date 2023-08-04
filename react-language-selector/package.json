@@ -1,7 +1,8 @@
 {
   "name": "react-language-select-button",
-  "version": "1.0.18",
+  "version": "1.0.20",
   "description": "Language selector for selecting language",
+  "homepage": "https://github.com/nabanitkoirala/react-language-selector/tree/master/react-language-selector",
   "main": "./build/index.js",
   "scripts": {
     "build": "webpack"
