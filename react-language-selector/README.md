@@ -23,12 +23,11 @@ function App() {
     <div className="App">
       <LanguageSelector
         onClickButton1={() => console.log("first button clicked")}
-        onClickButton2={() => console.log("Second button clicked")}
-        classNameButton="classButtonName"
-        classNameSelectedLanguage="classSelectedlanguage"
+        onClickButton2={() => console.log("Second button clickec")}
         buttonName2='ने'
         buttonName1="EN"
-        containerClassName="container"
+        classNameButton="test"
+        selectedLanguageClassName="test2"
       />
     </div>
   );
@@ -44,8 +43,8 @@ Common props you may want to specify include:
 
 * onClickButton1 - function to control the output on clicking first button
 * onClickButton2 - function to control the output on clicking second button
-* classNameButton - Classname to change the css style for the buttons
-* classNameSelectedLanguage - Classname to change the css style for selected button
+* classNameButton - Classname to change the css style for the default buttons
+* selectedLanguageClassName - Classname to change the css style for selected button
 * buttonName1 - Name to be provided for first button
 * buttonName2 - Name to be provided for second button
 

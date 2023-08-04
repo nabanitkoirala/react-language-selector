@@ -14,23 +14,23 @@ const LanguageSelector = (props) => {
         props.onClickButton2 && props.onClickButton2()
     }
     return (
-        <div className={props.containerClassName}>
+        <div style={{ display: 'flex', alignItems: 'center' }}>
             <button
                 className={selectedButton === 1
-                    ? `button1 ${props.classNameButton} ${props.classNameSelectedLanguage
+                    ? `button1 ${props.classNameButton ? props.classNameButton : ''} ${props.classNameSelectedLanguage
                         ? props.classNameSelectedLanguage
-                        : 'selected-language'}`
-                    : `button1 ${props.classNameButton}`}
+                        : `selected-language ${props.selectedLanguageClassName || null}`}`
+                    : `button1 ${props.classNameButton ? props.classNameButton : ''}`}
                 onClick={() => handleClickButton1(1)}
             >
                 {props.buttonName1}
             </button>
             <button
                 className={selectedButton === 2
-                    ? `button2 ${props.classNameButton} ${props.classNameSelectedLanguage
+                    ? `button2 ${props.classNameButton ? props.classNameButton : ''} ${props.classNameSelectedLanguage
                         ? props.classNameSelectedLanguage
-                        : 'selected-language'}`
-                    : `button2 ${props.classNameButton}`}
+                        : `selected-language ${props.selectedLanguageClassName || null}`}`
+                    : `button2 ${props.classNameButton ? props.classNameButton : ''}`}
                 onClick={() => handleClickButton2(2)}
             >
 
