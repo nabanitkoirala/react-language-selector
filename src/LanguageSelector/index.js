@@ -20,7 +20,7 @@ const LanguageSelector = (props) => {
                 className={selectedButton === 1
                     ? `button1 ${props.classNameButton ? props.classNameButton : ''} ${props.classNameSelectedLanguage
                         ? props.classNameSelectedLanguage
-                        : `selected-language ${props.selectedLanguageClassName || null}`}`
+                        : `selected-language ${props.selectedLanguageClassName || ""}`}`
                     : `button1 ${props.classNameButton ? props.classNameButton : ''}`}
                 onClick={() => handleClickButton1(1)}
             >
@@ -30,7 +30,7 @@ const LanguageSelector = (props) => {
                 className={selectedButton === 2
                     ? `button2 ${props.classNameButton ? props.classNameButton : ''} ${props.classNameSelectedLanguage
                         ? props.classNameSelectedLanguage
-                        : `selected-language ${props.selectedLanguageClassName || null}`}`
+                        : `selected-language ${props.selectedLanguageClassName || ""}`}`
                     : `button2 ${props.classNameButton ? props.classNameButton : ''}`}
                 onClick={() => handleClickButton2(2)}
             >
