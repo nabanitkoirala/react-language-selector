@@ -50,4 +50,6 @@ Common props you may want to specify include:
 * buttonName2 - Name to be provided for second button
 
 
-![Example](https://github.com/nabanitkoirala/react-language-selector/blob/master/react-language-selector/src/image/screenShot.png?raw=true)
+Example sample Button
+
+!['sample image button'](https://github.com/nabanitkoirala/react-language-selector/blob/master/react-language-selector/src/image/screenShot.png?raw=true)
