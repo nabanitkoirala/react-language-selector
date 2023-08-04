@@ -18,9 +18,9 @@ const LanguageSelector = (props) => {
         <div style={{ display: 'flex', alignItems: 'center' }}>
             <button
                 className={selectedButton === 1
-                    ? `button1 ${props.classNameButton ? props.classNameButton : ''} ${props.classNameSelectedLanguage
+                    ? `${props.classNameSelectedLanguage
                         ? props.classNameSelectedLanguage
-                        : `selected-language ${props.selectedLanguageClassName || ""}`}`
+                        : `selected-language ${props.selectedLanguageClassName || ""} button1 ${props.classNameButton ? props.classNameButton : ''} `}`
                     : `button1 ${props.classNameButton ? props.classNameButton : ''}`}
                 onClick={() => handleClickButton1(1)}
             >
@@ -28,9 +28,9 @@ const LanguageSelector = (props) => {
             </button>
             <button
                 className={selectedButton === 2
-                    ? `button2 ${props.classNameButton ? props.classNameButton : ''} ${props.classNameSelectedLanguage
+                    ? `${props.classNameSelectedLanguage
                         ? props.classNameSelectedLanguage
-                        : `selected-language ${props.selectedLanguageClassName || ""}`}`
+                        : `selected-language ${props.selectedLanguageClassName || ""} button2 ${props.classNameButton ? props.classNameButton : ''} `}`
                     : `button2 ${props.classNameButton ? props.classNameButton : ''}`}
                 onClick={() => handleClickButton2(2)}
             >
