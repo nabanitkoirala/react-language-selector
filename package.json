@@ -1,6 +1,6 @@
 {
   "name": "react-language-select",
-  "version": "1.0.15",
+  "version": "1.0.17",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
