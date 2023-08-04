@@ -14,7 +14,7 @@ const LanguageSelector = (props) => {
         props.onClickButton2 && props.onClickButton2()
     }
     return (
-        <div>
+        <>
             <button
                 className={selectedButton === 1
                     ? `button1 ${props.classNameButton} ${props.classNameSelectedLanguage
@@ -36,7 +36,7 @@ const LanguageSelector = (props) => {
 
                 {props.buttonName2}
             </button>
-        </div>
+        </>
     )
 }
 
